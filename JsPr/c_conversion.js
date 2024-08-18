@@ -65,3 +65,23 @@ let v4 = 1 + 2 + "2";
 console.log(v4);
 console.log(typeof v4);
 
+//comparison 
+//js has some inconsistences
+
+
+console.log(null > 0)
+console.log(null ==0)
+console.log(null >= 0)
+
+console.log(undefined ==0);
+console.log(undefined >0);
+console.log(undefined<0);
+
+//===
+//=== it check value as well as datatype
+
+console.log("2"=== 2);
+
+
+
+

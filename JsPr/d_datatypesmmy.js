@@ -33,3 +33,37 @@ let myObj ={
 
 const myFun = function(){console.log("hello fun");
 }
+//official documentaion link
+//https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+
+
+
+
+//*************************************************** */
+
+//Stack(Primitive) ,Heap (Non-Primitive)
+
+
+let myName = "Kshitij"
+
+let anotherName = myName;
+
+anotherName="Rishab"
+
+console.log(myName);
+console.log(anotherName);
+
+let user = {
+    email:"user@google.com",
+    upi:"user@hdfc"
+}
+
+let userTwo = user;
+
+userTwo.email = "update@microsoft.com"
+
+console.log(user.email);
+console.log(userTwo.email);
+
+
+

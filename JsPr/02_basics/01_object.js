@@ -3,6 +3,7 @@
 
 //study symbol in js before interview
 
+//this is Object Literals
 const mySym = Symbol("key1")
 
 const JsUser ={

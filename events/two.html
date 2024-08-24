@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Kshitij Asyn Project</h1>
+    <button id="click">Stop</button>
+
+</body>
+
+<script>
+
+// window.setTimeout,clearinterval  bth are diffrent 
+//diff btwn setTimeout and setInterval
+
+
+
+const sayMyName = function(){
+    console.log("Kshitijj");
+    
+}
+
+const changeText = function(){
+    document.querySelector('h1').innerHTML = "Prepare for Interview"
+}
+
+ const chanegMe =  setTimeout(changeText,2000)
+
+document.getElementById('click').addEventListener('click',function(){
+    console.log("Stop");
+    clearTimeout(chanegMe);
+})
+
+
+//  setInterval(function(){
+//     console.log("interval");
+    
+//  },2000)
+
+
+</script>
+</html>

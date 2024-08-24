@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Kshitij Asyn Project</h1>
+    <button id="stop">Stop</button>
+    <button id="start">Start</button>
+</body>
+
+<script>
+
+   const intervalId =  setInterval(function(){
+        console.log("kshitji");
+        
+    },2000)
+
+
+    document.getElementById('start').addEventListener('click',function(){
+        intervalId;
+    })
+
+    document.getElementById('stop').addEventListener('click',function(){
+        clearInterval(intervalId);
+    })
+
+    
+
+</script>
+</html>
